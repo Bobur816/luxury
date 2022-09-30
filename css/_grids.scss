@@ -1,0 +1,27 @@
+.container {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media (min-width: 425px){
+        max-width: 100%;
+    }
+    @media (min-width: 768px){
+        max-width: 750px;
+    }
+    @media (min-width: 1024px){
+        max-width: 900px;
+    }
+    @media (min-width: 1200px){
+        max-width: 1140px;
+    }
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
