@@ -74,6 +74,10 @@ body {
       flex-wrap: wrap;
 }
 
+body {
+  background-color: red;
+}
+
 .gold-btn {
   text-decoration: none;
   background-color: #E0B973;
@@ -168,8 +172,6 @@ body {
   padding: 3px 0;
   color: #fff;
   border-bottom: 2px solid transparent;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .nav-lists-list-a:hover {
